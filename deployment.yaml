@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: complete-production-e2e-deployment
-        image: kofipat/complete-prodcution-e2e-pipeline:CHANGEME
+        image: kofipat/complete-prodcution-e2e-pipeline:1.0.0-19
         resources:
           limits:
             memory: "256Mi"
